@@ -7,7 +7,7 @@
 System.Console.WriteLine("input number: ");
 string? str = Console.ReadLine();
 
-if (str.Length == 5)
+if (str!.Length == 5)
 {
     if (str[0] == str[4] && str[1] == str[3])
     {
